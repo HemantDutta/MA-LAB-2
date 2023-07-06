@@ -57,6 +57,7 @@
         android:text="@string/add"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
+        android:onClick="addition"
         app:layout_constraintStart_toStartOf="@+id/editTextNumber2"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumber2" />
 
@@ -66,6 +67,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="@string/minus"
+        android:onClick="subtract"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="@+id/button"
@@ -77,6 +79,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="@string/Multiply"
+        android:onClick="multiply"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="@+id/editTextNumber2"
@@ -90,31 +93,23 @@
         android:text="@string/divide"
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
+        android:onClick="divide"
         app:layout_constraintEnd_toEndOf="@+id/button3"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="180dp"
-        android:text="@string/calculate"
-        android:backgroundTint="@color/black"
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber2" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="180dp"
         android:text="@string/output"
         android:textColor="@color/white"
-        android:textStyle="bold"
         android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber2" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
