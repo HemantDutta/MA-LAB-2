@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MA-LAB-2</string>
+    <string name="Calc">Calculator App</string>
+    <string name="enter_first_number">Enter First Number</string>
+    <string name="enter_second_number">Enter Second Number</string>
+    <string name="output">Output</string>
+    <string name="add">+</string>
+    <string name="minus">-</string>
+    <string name="Multiply">X</string>
+    <string name="divide">/</string>
+    <string name="calculate">Calculate</string>
+</resources>
